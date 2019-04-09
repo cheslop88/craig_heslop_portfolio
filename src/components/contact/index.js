@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import Socials from '../socials';
 
 export default class Contact extends Component {
   render() {
@@ -9,13 +10,7 @@ export default class Contact extends Component {
                 <div className="center_wrapper">
                     <h2>Contact</h2>
                     <p>Please feel free to contact me</p>
-                    <form action="https://formspree.io/c.heslop88@googlemail.com" method="POST">
-                        <label for="name">Male</label>
-                        <input type="text" name="name"/>
-                        <label for="email">Male</label>
-                        <input type="email" name="_replyto"/>
-                        <button type="submit" value="Send">Send</button>
-                    </form>
+                    <Socials/>
                 </div>
             </div>
         </Fade>

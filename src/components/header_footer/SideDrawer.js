@@ -24,44 +24,20 @@ const SideDrawer = (props) => {
             onClose={()=> props.onClose(false)}
         >
             <List component="nav">
-                <ListItem button onClick={()=> scrollToElement('performing')}>
-                    Performing
+                <ListItem button onClick={()=> scrollToElement('about')}>
+                    About Me
                 </ListItem>
 
-                <ListItem button onClick={()=> scrollToElement('venue')}>
-                    Venues
+                <ListItem button onClick={()=> scrollToElement('skills')}>
+                    Skills
                 </ListItem>
 
-                <ListItem button onClick={()=> scrollToElement('highlights')}>
-                    Highlights
+                <ListItem button onClick={()=> scrollToElement('examples')}>
+                    Examples
                 </ListItem>
 
-                <ListItem button onClick={()=> scrollToElement('pricing')}>
-                    Pricing
-                </ListItem>
-
-                <ListItem button onClick={()=> scrollToElement('location')}>
-                    Location
-                </ListItem>
-
-                <ListItem button onClick={()=> scrollToElement('directions')}>
-                    Directions
-                </ListItem>
-
-                <ListItem button onClick={()=> scrollToElement('headliners')}>
-                    Headliners
-                </ListItem>
-
-                <ListItem button onClick={()=> scrollToElement('previous')}>
-                    North Beats 2018
-                </ListItem>
-
-                <ListItem button onClick={()=> scrollToElement('exhibition')}>
-                    Exhibition
-                </ListItem>
-
-                <ListItem button onClick={()=> scrollToElement('newsletter')}>
-                    Newsletter
+                <ListItem button onClick={()=> scrollToElement('contact')}>
+                    Contact
                 </ListItem>
 
             </List> 

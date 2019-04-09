@@ -9,7 +9,6 @@ import About from './components/about';
 import Skills from './components/skills';
 import Examples from './components/examples';
 import Contact from './components/contact';
-import Socials from './components/socials';
 import Footer from './components/header_footer/Footer';
 
 class App extends Component {
@@ -37,12 +36,6 @@ class App extends Component {
         <Element name="contact">
           <Contact/>
         </Element>
-
-        <Element name="socials">
-          <Socials/>
-        </Element>
-
-        <Footer/>
       </div>
     );
   }

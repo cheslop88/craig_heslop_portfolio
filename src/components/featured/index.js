@@ -7,7 +7,7 @@ const Featured = () => {
 
             <Carousel/>
 
-            <div className="artist_name">
+            <div className="feature_banner">
                 <div className="wrapper">
                     <h3>Craig Heslop - Web Developer</h3>
                 </div>
