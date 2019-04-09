@@ -171,13 +171,31 @@ h3 {
     text-align: center;
     text-transform: uppercase;
 }
+
+h4 {
+    font-size: 2rem;
+}
+
 p, ul {
     font-size: 1.6rem;
     font-weight: 400;
+    font-family: 'Oswald', sans-serif;
 }
 
 .skills_section,
 .contact_section {
     color: white;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-family: 'Passion One', cursive;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 30px;
+    text-decoration: none;
 }
 
