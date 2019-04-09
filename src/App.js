@@ -9,7 +9,6 @@ import About from './components/about';
 import Skills from './components/skills';
 import Examples from './components/examples';
 import Contact from './components/contact';
-import Footer from './components/header_footer/Footer';
 
 class App extends Component {
   render() {
